@@ -1,0 +1,12 @@
+﻿/.vs
+/dll
+/packages
+/**/bin
+/**/obj
+/**/*.png
+/**/*.jpg
+/YHSRNv7/_results/**/*.*
+/randpattern_valid/*.*
+/**/__pycache__
+!/YHSRNv7/_results/log/*.*
+!/YHSRNv7/_results/snap/model.npz

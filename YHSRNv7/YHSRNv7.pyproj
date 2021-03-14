@@ -1,0 +1,99 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4f43af44-1a2b-40ff-9042-76960b027cb0</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>sample.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>YHSRNv7</Name>
+    <RootNamespace>YHSRNv7</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="components\bilinear.py" />
+    <Compile Include="components\convert_ycbcr.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="components\diff.py" />
+    <Compile Include="components\diff_filter.py" />
+    <Compile Include="components\direction.py" />
+    <Compile Include="components\halfresize.py" />
+    <Compile Include="components\local_variance.py" />
+    <Compile Include="components\loss.py" />
+    <Compile Include="components\padding.py" />
+    <Compile Include="components\rms_clip.py" />
+    <Compile Include="components\conv2d.py" />
+    <Compile Include="components\yamatani.py" />
+    <Compile Include="env.py" />
+    <Compile Include="sample.py" />
+    <Compile Include="extract_params.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="train.py" />
+    <Compile Include="util\convergence_tester.py" />
+    <Compile Include="util\dirfilter.py" />
+    <Compile Include="util\imagelister.py" />
+    <Compile Include="util\workspace_saver.py" />
+    <Compile Include="YHSRN.py" />
+    <Compile Include="_tests\bilinear_NCHW_test.py" />
+    <Compile Include="_tests\bilinear_NHWC_test.py" />
+    <Compile Include="_tests\conv2d_NHWC_test.py" />
+    <Compile Include="_tests\convert_ycbcr_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="_tests\diff_NCHW_test.py" />
+    <Compile Include="_tests\diff_NHWC_test.py" />
+    <Compile Include="_tests\direction_NCHW_test.py" />
+    <Compile Include="_tests\direction_NHWC_test.py" />
+    <Compile Include="_tests\edge_padding_test.py" />
+    <Compile Include="_tests\halfresize_test.py" />
+    <Compile Include="_tests\imageloader_test.py" />
+    <Compile Include="_tests\local_variance_NCHW_test.py" />
+    <Compile Include="_tests\local_variance_NHWC_test.py" />
+    <Compile Include="_tests\noisy_loss_NCHW_test.py" />
+    <Compile Include="_tests\noisy_loss_NHWC_test.py" />
+    <Compile Include="_tests\rms_clip_test.py" />
+    <Compile Include="_tests\conv2d_NCHW_test.py" />
+    <Compile Include="_tests\yamatani_conv2d_NCHW_test.py" />
+    <Compile Include="_tests\yamatani_conv2d_NHWC_test.py" />
+    <Compile Include="_tests\yamatani_layer_data_NCHW_test.py" />
+    <Compile Include="_tests\yamatani_layer_data_NHWC_test.py" />
+    <Compile Include="_tests\yamatani_test.py" />
+    <Compile Include="_tests\yhsrn_test.py" />
+    <Compile Include="_tests\zero_padding_test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="components\" />
+    <Folder Include="util\" />
+    <Folder Include="util\__pycache__\" />
+    <Folder Include="_tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="util\__pycache__\convergence_tester.cpython-37.pyc" />
+    <Content Include="util\__pycache__\dirfilter.cpython-37.pyc" />
+    <Content Include="util\__pycache__\imagelister.cpython-37.pyc" />
+    <Content Include="util\__pycache__\workspace_saver.cpython-37.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

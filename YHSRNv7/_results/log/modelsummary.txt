@@ -1,0 +1,34 @@
+Model: "yhsrn"
+___________________________________________________________________
+Layer (type)                                 Output Shape  Param # 
+===================================================================
+terminal_block (Convolution2D)               multiple      256     
+___________________________________________________________________
+residual_block_0_0 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_0_1 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_0_2 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_1_0 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_1_1 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_1_2 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_2_0 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_2_1 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_2_2 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_3_0 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_3_1 (YamataniConvolution2D)   multiple      73728   
+___________________________________________________________________
+residual_block_3_2 (YamataniConvolution2D)   multiple      73728   
+===================================================================
+Total params: 884,992
+Trainable params: 884,992
+Non-trainable params: 0
+___________________________________________________________________

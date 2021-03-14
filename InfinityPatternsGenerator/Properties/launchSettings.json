@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "InfinityPatternsGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../../randpattern_valid 8192 -1"
+    }
+  }
+}
