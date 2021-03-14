@@ -5,7 +5,7 @@ import random
 import cv2
 import numpy as np
 
-dirpath = 'Enter training images direcctory path.'
+dirpath = 'Enter training images directory path.'
 
 np.random.seed(1234)
 

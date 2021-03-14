@@ -43,7 +43,7 @@ residuals = 4
 cascades = 3
 
 # image loader
-lister = ImageLister('Enter training images direcctory path.')
+lister = ImageLister('Enter training images directory path.')
 
 indexer = ImageIndexer(lister, batches, shuffle_seed = 1234)
 batchmaker = GrayscaleImageBatchMaker(imgsize, batches, data_format)
