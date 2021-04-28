@@ -60,7 +60,6 @@
     <Compile Include="_tests\direction_NHWC_test.py" />
     <Compile Include="_tests\edge_padding_test.py" />
     <Compile Include="_tests\halfresize_test.py" />
-    <Compile Include="_tests\imageloader_test.py" />
     <Compile Include="_tests\local_variance_NCHW_test.py" />
     <Compile Include="_tests\local_variance_NHWC_test.py" />
     <Compile Include="_tests\noisy_loss_NCHW_test.py" />
@@ -78,14 +77,7 @@
   <ItemGroup>
     <Folder Include="components\" />
     <Folder Include="util\" />
-    <Folder Include="util\__pycache__\" />
     <Folder Include="_tests\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="util\__pycache__\convergence_tester.cpython-37.pyc" />
-    <Content Include="util\__pycache__\dirfilter.cpython-37.pyc" />
-    <Content Include="util\__pycache__\imagelister.cpython-37.pyc" />
-    <Content Include="util\__pycache__\workspace_saver.cpython-37.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,12 +1,57 @@
-﻿/.vs
+﻿# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+
+# WinMarge backups
+*.bak
+
+# Cache/Options directory
+/.vs
 /dll
-/packages
-/**/bin
-/**/obj
-/**/*.png
-/**/*.jpg
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+/**/[Pp]ackages/*
+
+# Build results
+/**/[Bb]in/
+/**/[Oo]bj/
+/**/[Ll]og/
+/**/[Ll]ogs/
+/**/bld/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Publish
+/**/publish/
+/**/PublishProfiles
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Python cache
+/**/__pycache__
+*.pyc
+
+# Other
 /YHSRNv7/_results/**/*.*
 /randpattern_valid/*.*
-/**/__pycache__
+
+# Safelist
 !/YHSRNv7/_results/log/*.*
 !/YHSRNv7/_results/snap/model.npz
