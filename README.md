@@ -8,8 +8,8 @@
 [tk-yoshimura](https://github.com/tk-yoshimura)
 
 ## Report
-[J-STAGE]https://www.jstage.jst.go.jp/article/pjsai/JSAI2021/0/JSAI2021_4G2GS2k05/_article/-char/ja/  
-[slideshare]https://www.slideshare.net/TakumaYoshimura2/jsai2021-4g2gs2k05-yamatani-activation
+[J-STAGE](https://www.jstage.jst.go.jp/article/pjsai/JSAI2021/0/JSAI2021_4G2GS2k05/_article/-char/ja/)  
+[slideshare](https://www.slideshare.net/TakumaYoshimura2/jsai2021-4g2gs2k05-yamatani-activation)
 
 ## Usage
 Tensorflow 2.1.0  
