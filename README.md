@@ -9,7 +9,8 @@
 
 ## Report
 [J-STAGE](https://www.jstage.jst.go.jp/article/pjsai/JSAI2021/0/JSAI2021_4G2GS2k05/_article/-char/ja/)  
-[slideshare](https://www.slideshare.net/TakumaYoshimura2/jsai2021-4g2gs2k05-yamatani-activation)
+[slideshare(Japanese)](https://www.slideshare.net/TakumaYoshimura2/jsai2021-4g2gs2k05-yamatani-activation)
+[slideshare(English)](https://www.slideshare.net/TakumaYoshimura2/jsai-2021-4g2gs2k05-homogeneous-responsive-activation-function-yamatani-activation-and-application-to-singleimage-superresolution)
 
 ## Usage
 Tensorflow 2.1.0  
