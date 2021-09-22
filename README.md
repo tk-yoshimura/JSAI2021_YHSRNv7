@@ -1,5 +1,8 @@
 # YHSRNv7
  Yamatani-based Homogeneous Super Resolution Network v7 @ JSAI2021
+ 
+![fish](https://github.com/tk-yoshimura/TensorShader/blob/master/images/fish.svg)  
+![fireworks](https://github.com/tk-yoshimura/TensorShader/blob/master/images/fireworks.png)
 
 ## Licence
 [CC BY-NC-ND](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/LICENSE)

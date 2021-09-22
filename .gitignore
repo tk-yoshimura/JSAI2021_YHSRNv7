@@ -55,3 +55,5 @@
 # Safelist
 !/YHSRNv7/_results/log/*.*
 !/YHSRNv7/_results/snap/model.npz
+!/images/fish.svg
+!/images/fireworks.png
