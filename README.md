@@ -1,8 +1,5 @@
 # YHSRNv7
  Yamatani-based Homogeneous Super Resolution Network v7 @ JSAI2021
- 
-![fish](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/images/fish.svg)  
-![fireworks](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/images/fireworks.png)
 
 ## Licence
 [CC BY-NC-ND](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/LICENSE)
@@ -43,3 +40,8 @@ Run DIV2K\_MATLAB\_scoring eval_div2k_yhsrnv7.m
 ## Generate SR Image
 
 Run YHSRNv7/sample.py
+
+## Sample
+
+![fish](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/images/fish.svg)  
+![fireworks](https://github.com/tk-yoshimura/JSAI2021_YHSRNv7/blob/main/images/fireworks.png)
